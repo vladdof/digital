@@ -4,6 +4,8 @@ const GlobalStyle = createGlobalStyle`
   *,
   ::after,
   ::before {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
@@ -18,6 +20,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   #app {
@@ -36,6 +40,10 @@ const GlobalStyle = createGlobalStyle`
   ol {
     padding: 0;
     margin: 0;
+  }
+
+  li {
+    list-style-type: none;
   }
 `;
 

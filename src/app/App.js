@@ -28,7 +28,7 @@ function App() {
       <Pricing/>
       <Cta/>
       <Testimonials/>
-      <FooterContainer/>
+      <Footer/>
       <GlobalStyle />
     </AppWrapper>
   );

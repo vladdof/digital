@@ -2,7 +2,7 @@
 
 ## Таблица с данными о рабочих сменах
 
-Доступная ссылка https://vladdof.github.io/digital/
+Доступная ссылка [https://vladdof.github.io/digital/]
 &nbsp;
 &nbsp;
 ### Приступая к работе

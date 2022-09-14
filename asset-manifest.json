@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/digital/static/js/main.54b179e5.js",
+    "static/media/sign-up-2x.jpg": "/digital/static/media/sign-up-2x.0f2611c8968bec387500.jpg",
+    "static/media/sign-up.jpg": "/digital/static/media/sign-up.1f6254699d57d69b56c5.jpg",
+    "static/media/ipad.svg": "/digital/static/media/ipad.17e8f4471126ccd778ebf7b456523bee.svg",
+    "static/media/icons.svg": "/digital/static/media/icons.657f96c477bf357f9ca76c466caa39c0.svg",
+    "index.html": "/digital/index.html",
+    "main.54b179e5.js.map": "/digital/static/js/main.54b179e5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.54b179e5.js"
+  ]
+}

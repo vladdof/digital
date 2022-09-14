@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-import HeaderContainer from 'containers/HeaderContainer';
-import FooterContainer from 'containers/FooterContainer';
-import Banner from 'containers/BannerContainer';
-import Feature from 'containers/FeatureContainer';
-import SignUp from 'containers/SignUpContainer';
-import Pricing from 'containers/PricingContainer';
-import Cta from 'containers/CtaContainer';
-import Testimonials from 'containers/TestimonialsContainer';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
+import Banner from 'components/Banner';
+import Feature from 'components/Feature';
+import SignUp from 'components/SignUp';
+import Pricing from 'components/Pricing';
+import Cta from 'components/Cta';
+import Testimonials from 'components/Testimonials';
 import GlobalStyle from './global-styles';
 
 const AppWrapper = styled.div`
@@ -21,14 +21,14 @@ const AppWrapper = styled.div`
 function App() {
   return (
     <AppWrapper>
-      <HeaderContainer />
-      <BannerContainer />
-      <FeatureContainer />
-      <SignUpContainer />
-      <PricingContainer />
-      <CtaContainer />
-      <TestimonialsContainer />
-      <FooterContainerContainer />
+      <Header/>
+      <Banner/>
+      <Feature/>
+      <SignUp/>
+      <Pricing/>
+      <Cta/>
+      <Testimonials/>
+      <FooterContainer/>
       <GlobalStyle />
     </AppWrapper>
   );
